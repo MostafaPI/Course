@@ -35,6 +35,7 @@ nav a {
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 5px;
+    background-color: #ADD8E6; /* Light blue color */
     transition: background-color 0.3s ease;
 }
 
@@ -44,7 +45,7 @@ nav a:hover {
 
 /* Active tab styles */
 nav a.active {
-    background-color: #ADD8E6; /* Light blue color */
+    background-color: #87CEEB; /* Slightly darker light blue for active tab */
     color: #333;
 }
 
