@@ -64,12 +64,13 @@ section {
 
 sectionA {
     margin-bottom: 40px;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .instructor,
 .course {
     text-align: left; /* Align the "Instructor" and "Course" sections to the left */
+    align-items: left;
 }
 
 .image-container {
