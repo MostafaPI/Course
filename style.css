@@ -62,6 +62,10 @@ section {
     text-align: left; /* Align the content to the left */
 }
 
+sectionA {
+    margin-bottom: 40px;
+}
+
 .image-container {
     text-align: center;
 }
