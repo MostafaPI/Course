@@ -21,6 +21,7 @@ header {
 
 header h1 {
     margin: 0;
+    margin-left: 20px;
 }
 
 nav ul {
