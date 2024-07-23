@@ -64,6 +64,7 @@ section {
 
 sectionA {
     margin-bottom: 40px;
+    align-items: flex-start;
 }
 
 .image-container {
