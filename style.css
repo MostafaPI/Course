@@ -59,7 +59,7 @@ main {
 
 section {
     margin-bottom: 40px;
-    text-align: left; /* Align the content to the left */
+    /*text-align: left; Align the content to the left */
 }
 
 sectionA {
