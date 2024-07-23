@@ -31,11 +31,10 @@ nav li {
 }
 
 nav a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 5px;
-    /* background-color: #ADD8E6;  Light blue color */
     transition: background-color 0.3s ease;
 }
 
