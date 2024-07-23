@@ -3,9 +3,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 /* Header Styles */
@@ -63,13 +60,20 @@ main {
 
 #course-details {
     text-align: center;
+    margin-bottom: 40px;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .left-content {
+    width: 45%; /* Adjust width to your preference */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 50%;
 }
 
 .instructor,
@@ -79,9 +83,9 @@ main {
 }
 
 #image-section {
-    align-self: flex-end;
-    width: 50%;
-    text-align: right;
+    width: 45%; /* Adjust width to your preference */
+    display: flex;
+    justify-content: flex-end;
 }
 
 .image-container img {
