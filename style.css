@@ -67,6 +67,11 @@ sectionA {
     align-items: flex-start;
 }
 
+.instructor,
+.course {
+    text-align: left; /* Align the "Instructor" and "Course" sections to the left */
+}
+
 .image-container {
     text-align: center;
 }
