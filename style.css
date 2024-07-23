@@ -40,7 +40,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: #87CEEB; /* Slightly darker light blue on hover */
 }
 
 /* Active tab styles */
