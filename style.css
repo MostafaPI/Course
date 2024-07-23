@@ -42,6 +42,12 @@ nav a:hover {
     background-color: #555;
 }
 
+/* Active tab styles */
+nav a.active {
+    background-color: #ADD8E6; /* Light blue color */
+    color: #333;
+}
+
 /* Main Content Styles */
 main {
     padding: 20px;
