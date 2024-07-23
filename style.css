@@ -3,6 +3,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Header Styles */
@@ -10,6 +13,7 @@ header {
     background-color: #ADD8E6; /* Light blue color */
     color: #333;
     padding: 20px;
+    width: 100%; /* Make header full width */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,30 +55,33 @@ nav a.active {
 /* Main Content Styles */
 main {
     padding: 20px;
+    width: 100%; /* Make main content full width */
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#course-details {
     text-align: center;
 }
 
-section {
-    margin-bottom: 40px;
-    /*text-align: left; Align the content to the left */
-}
-
-sectionA {
-    margin-bottom: 40px;
-    align-items: center;
+.left-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
 }
 
 .instructor,
 .course {
-    text-align: left; /* Align the "Instructor" and "Course" sections to the left */
-    align-items: left;
+    text-align: left;
+    width: 100%;
 }
 
-.image-container {
-    text-align: center;
+#image-section {
+    align-self: flex-end;
+    width: 50%;
+    text-align: right;
 }
 
 .image-container img {
@@ -88,4 +95,5 @@ footer {
     color: #fff;
     padding: 10px;
     text-align: center;
+    width: 100%;
 }
